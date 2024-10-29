@@ -1,0 +1,20 @@
+'''x = input()
+x = x.replace(old=' ',new=' ')
+y=x[::-1]
+if x == y:
+    print("это палиндром")
+elif x != y:
+    print("это не палиндром")'''
+
+
+txt = input().split()
+ls = input().split()
+for x in txt:
+    for y in ls:
+        if x ==y:
+            x= x.upper()
+    print(x, end=' ')
+
+
+txt = input().split('.')
+print(len(txt))
